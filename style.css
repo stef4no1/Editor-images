@@ -79,12 +79,13 @@ body {
 
 .editor-panel button:hover {
   background: #f5f5f5;
+  cursor: pointer;
 }
 
 .filter button.active {
   color: #fff;
-  border-color: #5372F0;
-  background: #5372F0;
+  border-color: #7553f0;
+  background: #7553f0;
 }
 
 .filter .slider {
@@ -101,7 +102,7 @@ body {
 .filter .slider input {
   width: 100%;
   height: 5px;
-  accent-color: #5372F0;
+  accent-color: #7553f0;
 }
 
 .editor-panel .rotate {
@@ -122,8 +123,8 @@ body {
 
 .rotate .options button:active {
   color: #fff;
-  background: #5372F0;
-  border-color: #5372F0;
+  background: #7553f0;
+  border-color: #7553f0;
 }
 
 .wrapper .preview-img {
@@ -171,10 +172,18 @@ body {
   border: 1px solid #6C757D;
 }
 
+.controls .choose-img:hover {
+  background-color: #464646;
+}
+
 .controls .save-img {
   margin-left: 5px;
-  background: #5372F0;
-  border: 1px solid #5372F0;
+  background: #7553f0;
+  border: 1px solid #7553f0;
+}
+
+.controls .save-img:hover {
+  background-color: #554688;
 }
 
 /* Mediaqueries */
